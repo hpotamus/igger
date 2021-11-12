@@ -2,6 +2,7 @@ struct Level
 	data : string
 	enemyCount : int
 	fileBkg : string
+	tileColor : uint
 
 let levels = [[Level
 data = "
@@ -15,7 +16,7 @@ XX0DD00D00X0DDD
 0XXXX00000X0000
 D000X00000X000D
 DD00XXXHXXX00DD
-", enemyCount = 3, fileBkg = "1.jpg";
+", enemyCount = 3, fileBkg = "1.jpg", tileColor = 0xff663300;
 
 data = "
 S000G00000XXXXX
@@ -28,6 +29,6 @@ XX0DD00D00X0DDD
 0XXXX00000X0000
 D000X00000X000D
 DD00XXXHXXX00DD
-", enemyCount = 4, fileBkg = "1.jpg"
+", enemyCount = 4, fileBkg = "1.jpg", tileColor = 0xff336600
 
 ]]
