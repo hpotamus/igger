@@ -2,7 +2,7 @@
 
 A digger clone
 
-Submission for daScript Days 2021
+Submission for daScript Days 2021. Requires [dasBox](https://github.com/imp5imp5/dasbox)
 
 Controls: arrow keys
 
